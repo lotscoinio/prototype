@@ -1,0 +1,119 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  color: #5a5a5a;
+  min-height: 100%;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.navbar-brand {
+  padding: 9px 20px;
+}
+
+.navbar-right-brand {
+  padding: 11px 20px;
+  font-size: 16px;
+}
+
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+}
+
+.content {
+  margin-top: 51px;
+  padding-top: 40px;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #222;
+  border-color: #080808;
+}
+
+.fix-footer {
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  position: fixed;
+  display: block;
+}
+
+.contact-us {
+  float: left;
+}
+
+.contact-us .icon-contact-us {
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  margin-right: 25px;
+  vertical-align: middle;
+  background-image: url("../static/icon.png");
+}
+
+.icon-qq {
+  background-position: -105px -25px;
+}
+
+.icon-wx {
+  background-position: 0 -25px;
+}
+
+.icon-ml {
+  background-position: 0 -60px;
+}
+
+.policy-link {
+  float: right;
+  padding-right: 40px;
+  padding-top: 5px;
+}

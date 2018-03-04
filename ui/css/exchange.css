@@ -1,0 +1,87 @@
+hr {
+    margin: 0;
+}
+
+.nav-tabs>li.active, .nav-tabs-justified>li.active {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 3px solid steelblue;
+}
+
+.nav-tabs>li>a, .nav-tabs-justified>li>a {
+    border: 0;
+}
+
+.nav-tabs-justified>li>a:hover {
+    background-color: transparent;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border: 0;
+}
+
+.nav-tabs-justified>.active>a, .nav-tabs-justified>.active>a:focus, .nav-tabs-justified>.active>a:hover {
+    border: 0;
+
+}
+
+.top-banner {
+    margin: 35px 0px;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #e7ecf0;
+    border-collapse: collapse;
+}
+
+.table th {
+    height: 75px;
+}
+
+.table tr {
+    position: relative;
+    border-bottom: 1px solid #e7ecf0;
+}
+
+.table, .table td, .table th {
+    font-size: 15px;
+}
+
+.table td {
+    text-align: left;
+    color: #313942;
+    height: 76px;
+    line-height: 76px;
+    position: relative;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    border-top: 1px solid #ddd;
+}
+
+.td-name .user-head {
+    height: 45px;
+    width: 45px;
+    border-radius: 45px;
+    margin-right: 12px;
+    display: inline-block;
+}
+
+.td-price {
+    font-size: 16px;
+    color: #00a123!important;
+}
+
+.pl-30 {
+    padding-left: 30px!important;
+}
+
+.page-nav {
+    text-align: center;
+}
