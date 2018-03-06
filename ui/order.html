@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="static/favicon.ico">
 
-    <title>Sams Token</title>
+    <title>LOTS</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -34,149 +34,184 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#"><img src="static/logo.png" width="120px"></a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li><a href="index.html">首页</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">购买 </a>
-                  <ul class="dropdown-menu">
-                    <li><a href="exchange.html">BTC</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="exchange.html">ETH</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">出售 </a>
-                  <ul class="dropdown-menu">
-                    <li><a href="exchange.html">BTC</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="exchange.html">ETH</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">发布广告 </a>
-                  <ul class="dropdown-menu">
-                    <li><a href="exchange.html">BTC</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="exchange.html">ETH</a></li>
-                  </ul>
-                </li>
-              </ul>
-                <a href="login.html" class="navbar-right-brand navbar-right">登陆</a>
-                <a href="register.html" class="navbar-right-brand navbar-right">注册</a>
-            </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="static/logo3.png" width="90px"></a>
           </div>
-        </nav>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="invester.html">Invester</a></li>
+              <li>
+                <a href="borrower.html" >Borrower </a>
+              </li>
+              <li  >
+                <a href="#" >Help </a>
+                </li>
+            </ul>
+              <a href="login.html" class="navbar-right-brand navbar-right">Sign in</a>
+              <a href="register.html" class="navbar-right-brand navbar-right">Sign up</a>
+          </div>
+        </div>
+      </nav>
 
         <div class="container content">
             <div class="row">
                 <div class="col-lg-8 ad-detail">
-                    <div class="order-person">
-                        <img class="featurette-image img-responsive order-avatar" data-src="holder.js/80x80/auto" alt="Generic placeholder image">
-                        <div class="fl">
-                            <div class="user-name">
-                                <a href="/user/1000032132">chairlee</a>
 
-                                <span style="display: none" class="icon-message" userid="1000032132"></span>
 
-                            </div>
-                            <div class="poster-info-cont clear-float">
-                                <span class="poster-info-item">
-                                <div class="item-d">300+</div>
-                                <div class="item-n">交易次数</div>
-                                </span>
-                                <span class="poster-info-item">
-                                <div class="item-d">239</div>
-                                <div class="item-n">信任人数</div>
-                                </span>
-                                <span class="poster-info-item">
-                                <div class="item-d">99%</div>
-                                <div class="item-n">好评度</div>
-                                </span>
-                                <span class="poster-info-item">
-                                <div class="item-d">50+ BTC</div>
-                                <div class="item-n">历史成交</div>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <hr>
-                    <table class="table-info pt-30">
-                        <tbody><tr>
-                            <th>报价:</th><td></td><td class="price">112200 CNY/BTC</td>
-                        </tr>
-                        <tr>
-                            <th>交易限额:</th><td></td><td class="ad-limits">7500-7500 CNY</td>
-                        </tr>
-                        <tr>
-                            <th>付款方式:</th><td></td><td>支付宝</td>
-                        </tr>
-                        <tr>
-                            <th>付款期限:</th><td></td><td>30 分钟</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                    <h4>你想交易多少？</h4>
-                    <div class="price-in">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="请输入购买金额" aria-describedby="basic-addon2">
-                        <span class="input-group-addon">CNY</span>
-                    </div>
-                    <div class="exchange-symbol"><=></div>
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="请输入购买数量" aria-describedby="basic-addon2">
-                        <span class="input-group-addon">BTC</span>
-                    </div>
-                    </div>
-                    <div class="confirm">
-                        <button type="submit" class="btn btn-warning btn-block">立即购买</button>
-                    </div>
-                    <h4>交易须知</h4>
-                    <hr>
-                    <p>1.交易前请详细了解对方的交易信息。</p>
-                    <p>2.请通过平台进行沟通约定，并保存好相关聊天记录。</p>
-                    <p>3.如遇到交易纠纷，可通过申诉来解决问题。</p>
-                    <p>4.在您发起交易请求后，BTC 被锁定在托管中，受到 CoinCola 保护。如果您是买家，发起交易请求后，请在付款周期内付款并把交易标记为付款已完成。卖家在收到付款后将会放行处于托管中的 BTC。交易前请阅读《CoinCola服务条款》以及常见问题、交易指南等帮助文档。</p>
-                    <p>5.请注意欺诈风险，交易前请检查该用户收到的评价和相关信用信息，并对新近创建的账户多加留意。</p>
-                    <p>6.托管服务保护网上交易的买卖双方。在发生争议的情况下，我们将评估所提供的所有信息，并将托管的 BTC 放行给其合法所有者。</p>
+                        <div class="panel panel-default">
+                                <div class="panel-heading">
+                                  <h3 class="panel-title">Step1- Loan infomation</h3>
+                                </div>
+                                <div class="panel-body">
+                                        <div class="well well-sm">Loan profile</div>
+                                        
+                                        <table class="table table-striped">
+                                                <tr>
+                                                    <td>Internal Rate of return 292%</td>  
+                                                    <td>Expected last Payment date: 2018/01/05</td>
+                                                </tr>
+                                        </table>
+
+                                        <div class="well well-sm">Collateral Profile</div>
+
+                                        <table class="table table-striped">
+                                                <tr>
+                                                        <td>Volatility Level(KNC/ETH) High</td>  
+                                                        <td>Volatility Level(KNC/USDT) High</td>  
+                                                </tr>
+                                                <tr>
+                                                    <td>Collateral Rate 72%</td>  
+                                                    <td>Expected Collateral rate by end of term 82%</td>
+                                                </tr>
+                                        </table>
+
+
+                                                <div class="confirm">
+                                                    <button type="submit" class="btn btn-primary btn-block">Go on lending</button>
+                                                </div>
+                                </div>
+                              </div>
+                              <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                      <h3 class="panel-title">Step2- Sign smart contract with borrower</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                            <div class="alert alert-success">
+                                                   You are signningcontract with borrower XXX on lending 55.00 ETH with 10% premium.
+                                                  <br/>
+                                                   By Clicking the button below, you need to fund the loan within 30 minites after the contract is generated.
+                                                  </div>
+                                                  <div class="confirm">
+                                                        <button type="submit" class="btn btn-primary btn-block">Sign contract</button>
+                                                    </div>
+
+                                    </div>
+                              </div>
+                              <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                      <h3 class="panel-title">Step3-Fund loan request</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                            <div class="alert alert-success">
+                                                   Please send 55 ETH to 0xXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                                                  </div>
+                                                  <div class="confirm">
+                                                        <button type="submit" class="btn btn-primary btn-block">Refresh</button>
+                                                    </div>
+
+
+                                    </div>
+                              </div>
+                              <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                      <h3 class="panel-title">Step4- Get Refunded</h3>
+                                    </div>
+                                    <div class="panel-body"></div>
+                              </div>
+
+                    
+                     
+                   
+                     
                 </div>
                 <div class="col-lg-4">
-                    <h3>广告留言</h3>
-                    <hr>
-                    <p>*支付宝 随时确认 姓名，银行卡支付也行，不过要加支付宝先查看芝麻信用在用同名卡转</p>
+
+                        <div class="panel panel-default">
+                                <div class="panel-heading">
+                                  <h3 class="panel-title">Borrower profile</h3>
+                                </div>
+                                <div class="panel-body">
+
+                                        <div class="order-person">
+                                                <img class="featurette-image img-responsive order-avatar" data-src="holder.js/80x80/auto" alt="Generic placeholder image">
+                                                <div class="fl">
+                                                    <div class="user-name">
+                                                        <a href="/user/1000032132">chairlee</a>
+                        
+                                                        <span style="display: none" class="icon-message" userid="1000032132"></span>
+                        
+                                                    </div>
+                                                    <div class="poster-info-cont clear-float">
+                                                        <span class="poster-info-item">
+                                                        <div class="item-d">300+</div>
+                                                        <div class="item-n">funded</div>
+                                                        </span>
+                                                        <span class="poster-info-item">
+                                                        <div class="item-d">50+ BTC</div>
+                                                        <div class="item-n">Dealed</div>
+                                                        </span>
+                                                        <span class="poster-info-item">
+                                                        <div class="item-d">239</div>
+                                                        <div class="item-n">Trust</div>
+                                                        </span>
+                                                        <span class="poster-info-item">
+                                                        <div class="item-d">99%</div>
+                                                        <div class="item-n">Credit rating</div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                </div>
+                          </div>
+
+
+                        
+                            <hr>
                 </div>
             </div>
         </div>
 
 
 
-      <footer class="fix-footer">
-        <div class="container">
-            <div class="footer-info">
-            <div class="contact-us">
-                <span>&copy; 2018 Sams Token All Rights Reserved &nbsp;&nbsp;&nbsp;</span>
-                <a class="icon-contact-us icon-qq"></a>
-                <a class="icon-contact-us icon-wx"></a>
-                <a class="icon-contact-us icon-ml"></a>
-            </div>
-            <div class="policy-link">
-                <a href="#">关于我们</a> &middot; <a href="#">费率说明</a> &middot; <a href="#">Q&A</a>
-            </div>
-            </div>
-        </div>
-      </footer>
-
+   
+        <br/>
+        <footer class="fix-footer">
+          <div class="container">
+              <div class="footer-info">
+              <div class="contact-us">
+                  <span>&copy; 2018 LOTS All Rights Reserved &nbsp;&nbsp;&nbsp;</span>
+                  <a class="icon-contact-us icon-qq"></a>
+                  <a class="icon-contact-us icon-wx"></a>
+                  <a class="icon-contact-us icon-ml"></a>
+              </div>
+              <div class="policy-link">
+                  <a href="#">Abount Us</a> &middot;  <a href="#">Q&A</a>
+              </div>
+              </div>
+          </div>
+        </footer>
+  
 
 
     <!-- Bootstrap core JavaScript

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="static/favicon.ico">
+
+    <title>LOTS</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/assets/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/assets/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/assets/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/assets/html5shiv.min.js"></script>
+      <script src="js/assets/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/order.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="static/logo3.png" width="90px"></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="invester.html">Invester</a></li>
+              <li>
+                <a href="borrower.html" >Borrower </a>
+              </li>
+              <li  >
+                <a href="#" >Help </a>
+                </li>
+            </ul>
+              <a href="login.html" class="navbar-right-brand navbar-right">Sign in</a>
+              <a href="register.html" class="navbar-right-brand navbar-right">Sign up</a>
+          </div>
+        </div>
+      </nav>
+
+        <div class="container content">
+            <div class="row">
+                <div class="col-lg-8 ad-detail">
+
+
+                        <div class="alert alert-warning">
+                                Get funded on a cool chain !
+                              </div>
+
+
+                        <div class="panel panel-default">
+                                <div class="panel-heading">
+                                  <h3 class="panel-title">Step1- Complete your loan request</h3>
+                                </div>
+                                <div class="panel-body">
+
+
+
+                                    <table class="table table-striped">
+                                        <tr>
+                                            <td>    <span class="input-group-addon">Ticker name</span>
+                                              <select class="form-control">
+                                                  <option>ETH</option>
+                                                  <option>NEO</option>
+                                                  <option>BTC</option>
+                                                </select>
+                                              </td>  
+                                            <td> <span class="input-group-addon">Amount</span>
+                                              <input type="text" class="form-control"  ></td>
+                                        </tr>
+
+                                        
+                                        <tr>
+                                            <td>  <span class="input-group-addon">Number of installment:</span>
+                                              <select class="form-control">
+                                                  <option>1</option>
+                                                  <option>2</option>
+                                                  <option>3</option>
+                                                  <option>4</option>
+                                                  <option>5</option>
+                                                </select></td>  
+                                            <td> <span class="input-group-addon">Installment period (in days)</span>
+                                              <input type="text" class="form-control"  value="10"></td>
+                                        </tr>
+
+                                        
+                                        <tr>
+                                            <td><span class="input-group-addon">Premium to pay(%)</span>
+                                              <select class="form-control">
+                                                  <option>10%</option>
+                                                  <option>5%</option>
+                                                  <option>20%</option>
+                                                  <option>30%</option>
+                                                </select></td>  
+                                            <td> </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>  <span class="input-group-addon">Collateral Ticker name name</span>
+                                              <select class="form-control">            <option>OMG</option>
+                                                  <option>BNB</option>    </select></td>  
+                                            <td> <span class="input-group-addon">Collateral Amount</span>
+                                              <input type="text" class="form-control"  > </td>
+                                        </tr>
+                                </table>
+  
+                                                <div class="confirm">
+                                                    <button type="submit" class="btn btn-warning btn-block">Get my request post</button>
+                                                </div>
+                                </div>
+                              </div>
+                              <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                      <h3 class="panel-title">Step2- Sign smart contract with lender</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                            <div class="alert alert-success">
+                                                    Your loan request is pre-signed with lender XXX.
+                                                    You need to finish the smart contract signning in 30:00:00
+                                                  </div>
+                                                  <div class="confirm">
+                                                        <button type="submit" class="btn btn-warning btn-block">Refresh</button>
+                                                    </div>
+
+                                    </div>
+                              </div>
+                              <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                      <h3 class="panel-title">Step3- Send Collateral token</h3>
+                                    </div>
+                                    <div class="panel-body">
+
+                                            <div class="alert alert-success">
+                                                   Please send 120.00OMG to 0xXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                                                  </div>
+                                                  <div class="confirm">
+                                                        <button type="submit" class="btn btn-warning btn-block">Refresh</button>
+                                                    </div>
+
+
+                                    </div>
+                              </div>
+                              <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                      <h3 class="panel-title">Step4- Get funded</h3>
+                                    </div>
+                                    <div class="panel-body"></div>
+                              </div>
+
+                    
+                     
+                   
+                     
+                </div>
+                <div class="col-lg-4">
+                        <div class="order-person">
+                                <img class="featurette-image img-responsive order-avatar" data-src="holder.js/80x80/auto" alt="Generic placeholder image">
+                                <div class="fl">
+                                    <div class="user-name">
+                                        <a href="/user/1000032132">chairlee</a>
+        
+                                        <span style="display: none" class="icon-message" userid="1000032132"></span>
+        
+                                    </div>
+                                    <div class="poster-info-cont clear-float">
+                                        <span class="poster-info-item">
+                                        <div class="item-d">300+</div>
+                                        <div class="item-n">funded</div>
+                                        </span>
+                                        <span class="poster-info-item">
+                                        <div class="item-d">50+ BTC</div>
+                                        <div class="item-n">Dealed</div>
+                                        </span>
+                                        <span class="poster-info-item">
+                                        <div class="item-d">239</div>
+                                        <div class="item-n">Trust</div>
+                                        </span>
+                                        <span class="poster-info-item">
+                                        <div class="item-d">99%</div>
+                                        <div class="item-n">Credit rating</div>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                </div>
+            </div>
+        </div>
+
+
+
+   
+        <br/>
+        <footer class="fix-footer">
+          <div class="container">
+              <div class="footer-info">
+              <div class="contact-us">
+                  <span>&copy; 2018 LOTS All Rights Reserved &nbsp;&nbsp;&nbsp;</span>
+                  <a class="icon-contact-us icon-qq"></a>
+                  <a class="icon-contact-us icon-wx"></a>
+                  <a class="icon-contact-us icon-ml"></a>
+              </div>
+              <div class="policy-link">
+                  <a href="#">Abount Us</a> &middot;  <a href="#">Q&A</a>
+              </div>
+              </div>
+          </div>
+        </footer>
+  
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/assets/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
